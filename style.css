@@ -1,0 +1,72 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+    display: flex;
+    font-family: fantasy;
+    height: 100vh;
+}
+
+header {
+    background-color: silver;
+    text-align: right;
+    padding: 1rem 0;
+    border-bottom: solid 2px grey;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 2),
+    0px 8px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.container {
+    margin: auto;
+    padding: 1.5rem;
+    background-color: silver;
+    border: solid 2px silver;
+    border-radius: 5px;
+    box-shadow:  
+    0 4px 8px 0 rgba(0, 0, 0, 2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container > h1 {
+    margin: 0 0 .5rem;
+}
+
+form input, form button {
+    width: 100%;
+    min-width: 300px;
+    box-sizing: border-box;
+    margin: .75rem 0;
+    padding: .5rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    border: solid 1px gold;
+    border-radius: 3px;
+}
+
+form button {
+    color: white;
+    background-color: rgb(0, 255, 221);
+}
+
+header a:hover, form button:hover {
+    background-color: gold;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 1rem;
+    border-top: solid 1px;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+footer img {
+    margin: 0 1rem;
+}
+
+footer img::backdrop{
+    cursor: pointer;
+}
